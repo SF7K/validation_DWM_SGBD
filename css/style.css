@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.indexBody {
+    background-image: url(../img/SylvAnd.jpg);
+    background-size: 100%;
+}
+
+.topMenu {
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+nav {
+    justify-content: center;
+    background-color: #1c5b74cb;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #a5f8d8;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.onlyIndexDiv {
+    width: 100%;
+    margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
+    color: #a5f8d8;
+}
+
+.onlyIndexDiv h1 {
+    font-size: 100px;
+}
+
+.onlyIndexDiv p {
+    font-size: 25px;
+}
+
+.charactersBody {
+    background-size: 100%;
+    background-image: url(../img/backChara.jpg);
+}
+
+.charactersMain {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.divTable {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border: solid 2px black;
+    background-color: #1c5b74cb;
+    color: #a5f8d8;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgba(185, 64, 16, 0.74);
+}
+
+
+.updateBody {
+    background-size: 100%;
+    background-image: url(../img/backChara.jpg);
+}
+
+.updateMain {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.updateForm {
+    width: 80%;
+    border: solid 2px black;
+    background-color: #1c5b74cb;
+    color: #a5f8d8;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+label {
+    margin: 10px 40px;
+
+}
+
+input {
+    margin: 10px 20px;
+}
+
+.button {
+    width: 10%;
+}
+
+.addBody {
+    background-size: 100%;
+    background-image: url(../img/backAdd.jpg);
+}
+
+.addMain {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addForm {
+    width: 80%;
+    border: solid 2px black;
+    background-color: #1c5b74cb;
+    color: #a5f8d8;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+}
